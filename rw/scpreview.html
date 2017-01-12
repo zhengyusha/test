@@ -3,8 +3,140 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
+    <link rel="stylesheet" type="text/css" href="StyleSheet.css"/>
 </head>
 <body>
-
+    <!--相同部分-->
+    <!--上面网站名-->
+    <table class="top">
+        <tr>
+            <td></td>
+            <td class="name">美妆秀</td>
+            <td></td>
+            <td>后台管理系统</td>
+        </tr>
+    </table>
+    <!--左边导航栏-->
+    <table class="bottom">
+        <tr>
+            <td class="bottom1">
+                <div>
+                    <table class="left">
+                        <tr>
+                            <th colspan=" 3">广告管理</th>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><a href="/index.html">首页广告</a></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td class="sx"><a href="/upload.html">上传广告</a></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><a href="/about.html">公司以及企业文化</a></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                    <table class="left">
+                        <tr>
+                            <th colspan=" 3">商品管理</th>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td class="x"><a href="/putaway.html">上架产品</a></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><a href=" /publish.html">发布产品</a></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </td>
+            <!--右边上半部分-->
+            <td>
+                <div>
+                    <p class=" title">上传广告</p>
+                    <hr />
+                    <!--右边中间部分-->
+                    <table class="scright">
+                        <tr>
+                            <td>广告标题：</td>
+                            <td><input type="text" name="name" class="name" value="幻时修复晚霜" maxlength="10"/></td>
+                            <td class="c">（至多输入10个字）</td>
+                        </tr>
+                        <tr>
+                            <td>广告主页：</td>
+                            <td class="c">（广告尺寸建议在...）</td>
+                        </tr>
+                    </table>
+                    <!--右边中间图片-->
+                    <div class="scimg">
+                        <table class="right3">
+                            <tr>
+                                <td class="shang">
+                                    <div class="picture2">
+                                        <img src="/img/tj.jpg" alt="添加" width="90" height="90" />
+                                        <img src="/img/1.jpg" alt="化妆品" class="hzp2" width="90" height="90" />
+                                    </div>
+                                </td>
+                                <td class="shang">
+                                    <div class="picture2">
+                                        <img src="/img/tj.jpg" alt="添加" width="90" height="90" />
+                                        <img src="/img/1.jpg" alt="化妆品" class="hzp2" width="90" height="90" />
+                                    </div>
+                                </td>
+                                <td class="shang">
+                                    <div class="picture2">
+                                        <img src="/img/tj.jpg" alt="添加" width="90" height="90" />
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="shang">
+                                    <div class="picture2">
+                                        <img src="/img/tj.jpg" alt="添加" width="90" height="90" />
+                                        <img src="/img/ggsp.jpg" alt="视频" class="hzp2" width="90" height="90" />
+                                        <img src="/img/ggspz.jpg" alt="广告视频" class="ggsp" width="90" height="25" />
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                        <!--右边图片下的设置-->
+                        <table class="fb">
+                            <tr>
+                                <td colspan="3">你上传的产品中多于<strong>1张图片</strong>，请设置</td>
+                            </tr>
+                            <tr>
+                                <td class="jz">每张图片停留时间：<input type="text" name="time" class="time" value="5" />秒</td>
+                                <td class="watch"><a href="/scpreview.html">观看预览效果</a></td>
+                            </tr>
+                        </table>
+                        <!--发布按钮-->
+                        <div>
+                            <form action="/uploadcg.html">
+                                <input type="submit" value="发布" class="fbbutton" />
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!--灰色隔层-->
+                <div class="transparency"> </div>
+                <div class="scopaque">
+                    <img src="/img/1.jpg" alt="化妆品" width="660" height="490"/>
+                </div>
+                <div class="opaque2">
+                    <a href="/upload.html">
+                        <img src="/img/gb.png" alt="关闭" width="50" height="50" />
+                    </a>
+                </div>
+            </td>
+        </tr>
+    </table>
 </body>
 </html>
