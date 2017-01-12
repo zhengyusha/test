@@ -327,3 +327,74 @@ input.xj2{background-color:white;
 }
 td.xyye{text-align:right;}
 input.xyy{border-radius:10%;}
+/*发布产品页面*/
+/*右边中间部分*/
+table.fbright{border-spacing:8px 20px;
+              margin-left:20px;
+              text-align:left;
+              vertical-align:top;
+}
+.fbright input{text-align:center;}
+select.fl1{width:150px;
+           height:25px;
+          text-align:center;
+}
+input.fbfb{width:130px;
+           height:40px;
+           border-radius:25px;
+           border:1px solid black;
+           background-color:white;
+           font-size:17px;
+           font-weight:bold;
+           cursor:pointer;
+}
+td.fb2{padding-top:30px;
+       padding-left:10px;
+}
+td.cj a:link{color:#bbb9b9;}
+td.cj a:visited{color:#bbb9b9;}
+td.cj a:hover{color:#bbb9b9;}
+td.cj a:active{color:#bbb9b9;}
+/*创建类目*/
+/*中间灰色部分*/
+div.yjlm{background-color:#a49898;
+         width:1150px;
+         height:345px;
+         z-index:2;
+         position:absolute;
+         top:190px;
+         right:40px;
+         border-radius:55px;
+         text-align:center;
+}
+table.yjlmb{position:absolute;
+            top:90px;
+            right :500px;
+            border-spacing:20px 30px;
+            font-size:18px;
+            text-align:center;
+}
+input.srlm{width:200px;
+           height:25px;
+           text-align:center;
+           font-size:17px;
+}
+input.wc{width:120px;
+         height:30px;
+         border-radius:10%;
+         border:1px solid black;
+         background-color:white;
+         cursor:pointer;
+         margin-top:20px;
+}
+/*发布产品效果页面*/
+img.tp2{z-index:2;
+        position:relative;
+        top:0px;
+        right:99px;
+}
+.xg img{margin-left:10px;}
+td.wu{border:1px solid black;
+      text-align:center;
+      width:70px;
+}
