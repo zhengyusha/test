@@ -1,7 +1,8 @@
-﻿body {
+﻿
+body {
 }
-/*所有页面相同部分*/
-/*最上面的样式*/
+body,html{height:100%;}
+hr,table,tr,td,div,span,p,img,form,textarea{border-style:none;}
 table.top {width:100%;
        border-bottom-style :solid ;
        border-width:0 0 10px 0;
@@ -14,7 +15,7 @@ td.name{background-color :#fa659c;
         font-size :2em;
         width :100px;
 }
-/*左边的导航栏*/
+
 table.bottom{margin :25px 0;}
 td.bottom1{vertical-align :top;
            padding-right :30px;
@@ -59,49 +60,55 @@ td.x{border-width :0px 0px 2px 0px;
        border-style :dashed ;
        border-color :black;
        width :133px;}
-/*右边区域*/
-/*右边上面*/
+
 p.title{color :#ff00dc;
   margin :25px 0px 0px 30px;
 }
 hr {background-color  :#ff00dc;
-    border:0px;
     height :3px;
     width :100%;
+    _height:6px;
 }
-/*首页广告*/
-/*中间两行字*/
-table.right,table.scright{border-spacing :30px 10px;}
+
+
 .right td{width :6em;
 }
 td.a{background-color :#ff00dc;
      text-align :center ;
 }
-td.b{border :1px solid  #ff00dc;}
-td.c{color :#d3d3d3;}
-/*下面的图片*/
-div.picture{width :120px;
+td.b{border :1px solid  #ff00dc;
+}
+td.c{color :#d3d3d3;
+    width:170px;
+}
+table.right{margin-left:20px;}
+
+
+div.picture{z-index:1;
+    width :120px;
             height :120px;
             margin :0;
+              _overflow:hidden;
 }
+
 img.hzp{z-index:2;
             position:relative ;
-            top:-123px;
+            top:-124px;
 }
 img.delete{z-index :3;
            position :relative ;
-           top :-143px; 
-           left :100px;       
+           top :-146px; 
+           left :100px;
+            _top:-148px;
 }
-/*图片下的文字*/
+
 .right2 td {padding-right:40px;}
 table.right2{margin-left :25px;}
 td.xia{padding-bottom :40px;}
 .zhong span{border :1px solid #ff00dc;
             margin :0px;
 }
-/*首页广告预览*/
-/*灰色透明隔层*/
+
 div.transparency{width:1145px;
                  height :660px;
                  background-color :#808080;
@@ -110,6 +117,7 @@ div.transparency{width:1145px;
                  z-index:4;
                  position :absolute  ;
                  top :70px;
+                 _display:inline;
 }
 div.opaque{z-index:5;
            position :absolute;
@@ -124,7 +132,7 @@ div.opaque2 {z-index: 6;
              top:125px;
             margin-left:780px;
 }
-/*确认删除页面的灰色隔层*/
+
 div.qropaque{z-index:5;
              position :absolute  ;
              top :180px;
@@ -149,37 +157,40 @@ input.qrbuttom1{border:1px solid black;
                 font-size:17px;
 }
 .qropaque p{ font-weight :bold ;} 
-/*上传页面*/
-/*右边中间部分*/
+
 table.scright {border-spacing :0px 0px;
                margin-left :30px;
 }
 input.name {width :300px;
             text-align :center ;
 }
-/*右边中间图片*/
-table.right3 {border-spacing :100px 40px;}
+
+table.right3 {border-spacing :100px 40px;
+              _margin-left:40px;
+}
 .right3 td{border:1px solid black;
 }
 div.picture2{width :90px;
              height :90px;
+             _overflow:hidden;
 }
 img.hzp2{z-index:2;
          position:relative ;
-         top:-93px;
+         top:-95px;
 }
-/*右边图片下的设置*/
+
 img.ggsp{z-index :3;
          position :relative ;
-         top :-185px; 
+         top :-187px; 
              
 }
+
 strong {color :red;
         
 }
 table.fb{margin :0px 100px;}
 .fb td {padding-bottom  :15px;
-        width :260px;
+        width :270px;
 }
 input.time{width :30px;
            text-align :center ;
@@ -190,6 +201,8 @@ td.watch a:visited {color :#ff00dc ;}
 td.watch a:hover {color :#ff00dc ;}
 td.watch a:active {color :#ff00dc ;}
 input.fbbutton{border:1px solid black;
+               -moz-border-radius: 25px; 
+	           -webkit-border-radius: 25px;
                border-radius:25px;
                width :150px;
                height:40px;
@@ -200,8 +213,7 @@ input.fbbutton{border:1px solid black;
                margin-top :50px;
 }
 .scright td{padding-top :20px;}
-/*上传广告成功页面*/
-/*灰色隔层*/
+
 div.qropaque3 {position:absolute;
                top:200px;
                margin-left:280px;
@@ -225,15 +237,13 @@ p.jx{font-size:15px;
       margin-left :70px;
       margin-bottom :10px;
 }
-/*上传广告预览页面*/
-/*灰色隔层*/
+
 div.scopaque{z-index:5;
              position:absolute;
              top:160px;
              margin-left :130px;
 }
-/*公司以及企业文化*/
-/*右边中间部分*/
+
 td.bh{border:1px solid #ff00dc;
       background-color:#ff00dc;
       color:white;
@@ -250,19 +260,21 @@ td.hb{border:1px solid #ff00dc;
       text-align :center;
       margin-left :0;
 }
-table.right4 {border-spacing:0px 10px;
-              margin-left:30px;
+table.right4 {margin-left:20px;
 }
-/*文字编辑器*/
+
 div.black{background-color:black;
           width:900px;
           height :400px;
           margin-left:30px;
 }
+td.c1{color :#d3d3d3;
+}
 textarea{background-color:black;
          margin-top:30px;
          margin-left:30px;
          border-color:black;
+         overflow-y:hidden;
          color:white;
          font-size:18px;
 }
@@ -275,8 +287,7 @@ input.qrfb{border-radius:25px;
            font-size:19px;
            margin:50px 0px 0px 400px;
 }
-/*上架产品页面*/
-/*中间*/
+
 form.sj{margin:30px;
 }
 select.lm{width:90px;}
@@ -295,7 +306,7 @@ input.scpbutton{margin-top:20px;
                 border:1px solid black;
                 cursor:pointer;
 }
-/*上架产品*/
+
 table.sjbg{border-top:2px solid #bbb9b9;
            width:1100px;
            border-spacing:2px 0px;
@@ -308,7 +319,10 @@ td.xjd{border-right:2px solid #bbb9b9;
 }
 td.kg{height:6px;}
 
-td.xjd2{width:100px;}
+td.xjd2{width:100px;
+        text-align:center;
+        vertical-align:middle;
+}
 td.xjd3{text-align:left ;}
 hr.hr{background-color:#bbb9b9;
       height:2px;
@@ -326,8 +340,7 @@ input.xj2{background-color:white;
 }
 td.xyye{text-align:right;}
 input.xyy{border-radius:10%;}
-/*发布产品页面*/
-/*右边中间部分*/
+
 table.fbright{border-spacing:8px 20px;
               margin-left:20px;
               text-align:left;
@@ -355,8 +368,7 @@ td.cj a:link{color:#bbb9b9;}
 td.cj a:visited{color:#bbb9b9;}
 td.cj a:hover{color:#bbb9b9;}
 td.cj a:active{color:#bbb9b9;}
-/*创建类目*/
-/*中间灰色部分*/
+
 div.yjlm{background-color:#a49898;
          width:1150px;
          height:345px;
@@ -366,6 +378,15 @@ div.yjlm{background-color:#a49898;
         margin-left:-20px;
          border-radius:55px;
          text-align:center;
+}
+iframe {width: 100%;
+        height: 80px;
+        position: absolute;
+        top: 340px;
+        z-index: 1;
+        filter: alpha(opacity=0);
+        border-color: background;
+        background-color: transparent;
 }
 table.yjlmb{position:absolute;
             top:90px;
@@ -387,7 +408,7 @@ input.wc{width:120px;
          cursor:pointer;
          margin-top:20px;
 }
-/*发布产品效果页面*/
+
 img.tp2{z-index:2;
         position:relative;
         top:0px;
